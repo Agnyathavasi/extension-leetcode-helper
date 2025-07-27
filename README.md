@@ -18,7 +18,8 @@ Supercharge your LeetCode problem solving with AI! This Chrome extension provide
 ## 📸 Demo Video
 
 [▶️ Watch how to use it (Step-by-step Guide)](https://drive.google.com/file/d/1YHmX1kMOj-T7xprDKDNuwe3VRRP0J_Bi/view?usp=drive_link)
-Pro tip: Watch the video at 1.25x speed for better experience
+
+> Pro tip: Watch the video at 1.25x speed for better experience
 
 > 📌 The video walks through installing the extension, generating an OpenRouter API key, and getting insights in real-time.
 
