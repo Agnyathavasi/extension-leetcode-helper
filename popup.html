@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 10px;
+        width: 250px;
+      }
+      button {
+        width: 100%;
+        margin-top: 10px;
+      }
+      .spinner {
+        width: 24px;
+        height: 24px;
+        border: 3px solid #ccc;
+        border-top: 3px solid #4caf50;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 10px auto;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      #output code {
+        background-color: #1e1e1e;
+        color: #dcdcdc;
+        padding: 8px;
+        display: block;
+        font-family: monospace;
+        white-space: pre-wrap;
+        border-radius: 8px;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>LeetCode AI Helper</h3>
+    <button id="btn-think">Get Thinking Insights</button>
+    <button id="btn-solve">Get Result</button>
+    <div id="loader" style="display: none" class="spinner"></div>
+    <div id="output" style="margin-top: 10px; white-space: pre-wrap"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
